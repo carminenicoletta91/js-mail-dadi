@@ -6,7 +6,7 @@ document.getElementById( 'giocatoreuno' ).innerHTML = giocatoreuno;
 
 //chiedo il nome del giocatore n.2
 var giocatoredue;
-giocatoredue = prompt( "Ciao giocatore uno inserisci il tuo nome" );
+giocatoredue = prompt( "Ciao giocatore due inserisci il tuo nome" );
 alert( "benvenuto " + giocatoredue );
 document.getElementById('giocatoredue').innerHTML = giocatoredue;
 
