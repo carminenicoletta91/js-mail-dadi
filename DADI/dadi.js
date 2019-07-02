@@ -1,15 +1,17 @@
+alert("Ciao facciamo un gioco?");
 //chiedo il nome del giocatore n.1
 var giocatoreuno;
-giocatoreuno = prompt( "Ciao giocatore uno inserisci il tuo nome" );
+giocatoreuno = prompt( "Giocatore uno inserisci il tuo nome" );
 alert( "benvenuto " + giocatoreuno );
 document.getElementById( 'giocatoreuno' ).innerHTML = giocatoreuno;
 
 //chiedo il nome del giocatore n.2
 var giocatoredue;
-giocatoredue = prompt( "Ciao giocatore due inserisci il tuo nome" );
+giocatoredue = prompt( "Giocatore due inserisci il tuo nome" );
 alert( "benvenuto " + giocatoredue );
 document.getElementById('giocatoredue').innerHTML = giocatoredue;
 
+alert("E' il momento di lanciare i dadi")
 //lancio il dado del giocatore uno
 var dadogiocatoreuno = Math.floor( Math.random() * 6 + 1 );
 alert( giocatoreuno + " è uscito il N."+ dadogiocatoreuno );
