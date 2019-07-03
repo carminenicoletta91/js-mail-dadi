@@ -18,10 +18,11 @@ for(var i = 0; i < listaemail.length; i++){
   }
 }
 if (trovato == true){
-  alert("presente")
+  alert("presente");
 }else{
-  alert("Non presente")
+  alert("Non presente");
 }
+
 // altro metodo
 // var trovato;
 // trovato = "Non presente";
